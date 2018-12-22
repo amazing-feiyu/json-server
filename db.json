@@ -1,9 +1,33 @@
+
 {
   "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+      {
+            "name": "Wang",
+            "course": "Math",
+            "number": "01",
+            "score": "80"
+        },
+        {
+            "name": "Li",
+            "course": "Math",
+            "number": "02",
+            "score": "85"
+        },
+        {
+            "name": "deng",
+            "course": "English",
+            "number": "03",
+            "score": "90"
+        },
+        {
+            "name": "zheng",
+            "course": "Chinese",
+            "number": "04",
+            "score": "80"
+        }
   ],
-  "comments": [
+"comments": [
     { "id": 1, "body": "some comment", "postId": 1 }
   ],
-  "profile": { "name": "typicode" }
+    "profile": { "name": "typicode" }
 }
